@@ -1,6 +1,4 @@
-loadstring(game:HttpGet("https://files.catbox.moe/2r1n7q.lua"))()
-
-local Library = loadstring(game:HttpGet("https://files.catbox.moe/2r1n7q.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/avengerhubontop/CloudUI/refs/heads/main/src.lua"))()
 local Window = Library:CreateWindow({Title="DarkGrey Premium",SubTitle="by king",MinimizeKey=Enum.KeyCode.RightControl})
 
 local Main = Window:AddTab({Title="Combat",Icon="zap"})
